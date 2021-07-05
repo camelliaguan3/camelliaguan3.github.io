@@ -1,0 +1,42 @@
+/* STYLE SECTIONING TAGS */
+body { 
+
+}
+
+/* STYLE TEXT */
+
+p {
+  font-size: 16px;
+}
+
+/* STYLE IMAGES */
+.bkgrd {
+  background: #f6eee1 url('assets/flowers.jpg') no-repeat fixed bottom;
+  background-size: 40%;
+}
+/* STYLE NAV BAR */
+.topnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #444;
+}
+
+.topnav li {
+  float: left;
+}
+
+.topnav a {
+  font-family:courier;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.topnav li a:hover {
+  background-color: #222;
+}
