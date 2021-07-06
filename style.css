@@ -1,17 +1,27 @@
 /* STYLE SECTIONING TAGS */
-body { 
-
+* { 
+  margin: 0px;
+  padding: 0px;
 }
 
 /* STYLE TEXT */
 
 p {
   font-size: 16px;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+h1 {
+  font-family:courier;
+  font-weight:normal;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
 }
 
 /* STYLE IMAGES */
 .bkgrd {
-  background: #f6eee1 url('assets/flowers.jpg') no-repeat fixed bottom;
+  background: #f6eee1;
   background-size: 40%;
 }
 /* STYLE NAV BAR */
@@ -39,4 +49,11 @@ p {
 /* Change the link color to #111 (black) on hover */
 .topnav li a:hover {
   background-color: #222;
+}
+
+.fix {
+    margin-top: 5%;
+    max-width:50%;
+    bottom:0px;
+    transform:translate(50%, 30%);
 }
