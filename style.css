@@ -14,7 +14,6 @@ p {
 }
 
 h1 {
-  font-family:courier;
   font-weight:normal;
   padding-top: 2.5%;
   padding-bottom: 2.5%;
@@ -52,8 +51,8 @@ h1 {
 }
 
 .fix {
-    margin-top: 5%;
-    max-width:50%;
-    bottom:0px;
-    transform:translate(50%, 30%);
+  margin-top: 5%;
+  max-width:50%;
+  bottom:0px;
+  transform:translate(50%, 30%);
 }
