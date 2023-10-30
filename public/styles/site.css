@@ -1,8 +1,8 @@
-@import url('../downloads/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf');
+@font-face {font-family: 'Source-Code-Pro';src: url('../downloads/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf');}
 
 :root {
-    --theme-color-active: #777777;
-    --theme-color-hover: #AAAAAA;
+    --theme-color-active: #666666;
+    --theme-color-hover: #BBBBBB;
     --theme-color-words: #111111;
     --theme-color-active-words: #EEEEEE;
 }
@@ -11,14 +11,15 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Source Code Pro";
+    font-family: Source-Code-Pro, sans-serif !important;
 }
 
+/* sticky navigation? */
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 4em;
+    min-height: 5em;
     color: var(--theme-color-words);
     position: fixed;
     top: 0;
