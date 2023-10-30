@@ -60,4 +60,4 @@ The *Citations* section cites any outside sources that I may have used throughou
 
 | Project Section | Description of Section | Source |
 | - | - | - |
-| | | |
+| Font | This is the main font used throughout the website (Source Code Pro). | https://fonts.google.com/specimen/Source+Code+Pro?query=code |

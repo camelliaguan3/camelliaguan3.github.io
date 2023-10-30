@@ -1,0 +1,67 @@
+@import url('../downloads/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf');
+
+:root {
+    --theme-color-active: #777777;
+    --theme-color-hover: #AAAAAA;
+    --theme-color-words: #111111;
+    --theme-color-active-words: #EEEEEE;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Source Code Pro";
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 4em;
+    color: var(--theme-color-words);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-heading {
+    letter-spacing: 6px;
+    font-size: 16px;
+}
+
+.nav-heading a {
+    color: inherit;
+    text-decoration: none;
+}
+  
+.nav-pages {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+
+.nav-pages li {
+    list-style: none;
+    text-align: center
+}
+
+.nav-pages a {
+    color: inherit;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-size: 16px;
+    padding: 14px 16px;
+    padding-left: 20px;
+}
+
+.nav-pages a:hover {
+    border-radius: 5px;
+    background-color: var(--theme-color-hover);
+}
+
+.nav-pages a.active {
+    border-radius: 5px;
+    background-color: var(--theme-color-active);
+    color: var(--theme-color-active-words);
+}
