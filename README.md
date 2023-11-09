@@ -1,4 +1,4 @@
-# Professional Website
+# ENGRC 3025: Professional Website
 
 ## Purpose of Project
 This repository was made for my ENGRC 3025 Final Project, in which I create a professional website that displays my skills, projects, and overall resume. This website will showcase the web development skills that I have learned, including HTML, CSS, and JavaScript.
@@ -20,6 +20,9 @@ The *File Overview* section outlines the main files of the project.
 
  ← portfolio.html
 
+ ← resume.html
+
+
 <br />
 
 ### /scripts
@@ -36,7 +39,7 @@ The *File Overview* section outlines the main files of the project.
 
 The wireframe and prototype of the website includes a home page, about page, and portfolio page. However, I realized that it did not have enough interactivity to my liking, and I also wanted the home page to be more eye-catching than I designed it to be, as audience retainment is a goal of mine. To fix this, 
 
-A project requirement is that the website also have at least 4 pages or section, so another page will be added to satisfy this requirement, which will outline technical and soft skills from my resume.
+A project requirement is that the website also have at least 4 pages or section, so another page will be added to satisfy this requirement, which will outline technical and soft skills from my resume, as well as work experience.
 
 <br/>
 

@@ -27,7 +27,132 @@
 
         </ul>
 
-        
-
     </nav>
+
+
+    <!-- 
+        Content will include projects + images/videos (in slideshow format) 
+        associated with the projects. The organization will be as follows: 
+
+        |----------|         |----------|
+        |  images  |         |  images  |
+        |----------|         |----------|
+        text                 text
+        [link to project]    [link to project]
+
+        |----------|         |----------|
+        |  images  |         |  images  |
+        |----------|         |----------|
+        text                 text
+        [link to project]    [link to project]
+
+        ....and so on
+    -->
+    
+    <div class="portfolio-flex">
+
+        <div class="portfolio-item left">
+            <h2 class="portfolio-header"> Playful Plants </h2>
+
+            <hr/> 
+            
+            <img class="portfolio-img" src="../public/images/portfolio/playful-plants/playful-plants-0.jpeg" />
+            
+            <hr/>
+
+            <div class="portfolio-languages">
+                <p> HTML </p>
+                <p> CSS </p>
+                <p> JavaScript </p>
+                <p> JQuery </p>
+                <p> PHP </p>
+                <p> SQLite </p>
+                <p> Heroku </p>
+            </div>
+
+            <div class="portfolio-desc">
+                <h3> Description </h3> 
+                <p>
+                    The Playful Plants Project at Cornell University aims to educate designers, planners, and facility managers about the value plants and natural features can add to their spaces. 
+                    For this project, I followed a 2-phase development pattern that included design and then implementation.
+                </p>
+
+                <h3> Design/Planning </h3>
+                <p>
+                    I documented a design journey to identify audience goals, wireframe website designs, and plan out a database and formulate SQL queries.
+                </p>
+
+                <h3> Implementation </h3>
+                <p>
+                    The database was created via SQLite, and the server-side content rendering was conducted via PHP. The final implementation included a Consumer page and an Administrator page. The Consumer page allows users to browse, sort, and filter plants. Administrators of Playful Plants can also access the Administrator page, allowing them to edit plant entries that can then be viewed by consumers. 
+                </p>
+
+            </div>
+
+            <div class="portfolio-stats">
+                <div>
+                    <h3> Contributors: </h3>
+                    <p> Camellia Guan </p>
+                </div>
+                
+                <div>
+                    <h3> Duration: </h3>
+                    <p> Apr 2022 - May 2022 </p>
+                </div>
+                
+            </div>
+
+            <a class="button" href="https://github.coecis.cornell.edu/info2300-2022sp/ckg43-project3"> Source Code </a>
+            
+        </div>
+
+        <div class="portfolio-item right">
+            <h2 class="portfolio-header"> OCaml Piano </h2>
+
+            <hr/> 
+            
+            <img class="portfolio-img" src="../public/images/portfolio/ocaml-piano/ocaml-piano-0.jpeg" />
+            
+            <hr/>
+
+            <div class="portfolio-languages">
+                <p> OCaml </p>
+            </div>
+
+            <div class="portfolio-desc">
+                <h3> Description </h3> 
+                <p>
+                    The OCaml Piano is an open-ended, agile software development experience project created as part of CS 3110: Data Structures and Functional Programming.
+                </p>
+
+                <h3> Design/Planning </h3>
+                <p>
+                    The project was split into multiple files and functions, which were divided among the contributors.
+                </p>
+
+                <h3> Implementation </h3>
+                <p>
+                    The piano was built from scratch and consists of approximately 1000 lines of OCaml code, consisting of an interface, documentation, and testing.
+                </p>
+
+            </div>
+
+            <div class="portfolio-stats">
+                <div>
+                    <h3> Contributors: </h3>
+                    <p> Raymond Chiang, Camellia Guan, Sean Wang </p>
+                </div>
+                
+                <div>
+                    <h3> Duration: </h3>
+                    <p> Sep 2021 - Dec 2021 </p>
+                </div>
+                
+            </div>
+
+            <a class="button" href="https://github.coecis.cornell.edu/rsc257/cs3110-project"> Source Code </a>
+            
+        </div>
+    </div>
+
 </body>
