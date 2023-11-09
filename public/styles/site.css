@@ -32,6 +32,10 @@ body {
     width: 100%;
 }
 
+h2 {
+    font-size: 22px;
+}
+
 .button {
     display: inline-block;
 
@@ -107,7 +111,6 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* align-items: ; */
 }
 
 .portfolio-item {
@@ -167,7 +170,7 @@ hr {
 
 .portfolio-stats {
     border-radius: 10px;
-    box-shadow: 0 0 5px 3px var(--theme-color-languages);
+    box-shadow: 0 4px 8px 0 var(--theme-color-languages), 0 6px 20px 0 var(--theme-color-languages);
     margin-bottom: 20px;
     padding: 10px;
 }
@@ -188,7 +191,62 @@ hr {
 
 /* resume */
 
+.resume-timeline {
+    display: block;
+    padding: 20px;
+    width: 100%;
+    font-size: 15px;
+}
 
+.resume-header {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 35px;
+}
+
+.resume-line {
+    border-left: 2px solid #333;
+    margin: auto;
+    width: 60%;
+
+}
+
+.resume-card {
+    position: relative;
+    margin: 0 0 50px 20px;
+    padding: 10px;
+    background-color: var(--theme-color-active-words);
+    color: var(--theme-color-active);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 var(--theme-color-languages), 0 6px 20px 0 var(--theme-color-languages);
+
+    z-index: 1;
+}
+
+.resume-workinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.resume-title {
+    position: relative;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.resume-title::before {
+    content: "";
+    position: absolute;
+    left: -39px;
+    width: 10px;
+    height: 10px;
+
+    background: var(--theme-color-background);
+    border: 3px solid var(--theme-color-active); 
+
+    z-index: 1;
+}
 
 
 /* about */
@@ -252,6 +310,8 @@ nav {
     padding-bottom: 1.5em;
 
     width: 100%;
+
+    z-index: 2;
 }
 
 .nav-heading {
