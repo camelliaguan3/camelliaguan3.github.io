@@ -191,6 +191,40 @@ hr {
 
 /* resume */
 
+.resume-skills {
+    display: block;
+    padding: 20px;
+    width: 100%;
+    font-size: 15px;
+}
+
+.resume-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.resume-item {
+    width: 25%;
+    padding: 15px;
+    margin: 0 2% 1% 2%;
+
+    border-radius: 20px;
+    background-color: var(--theme-color-active-words);
+    box-shadow: 0 4px 8px 0 var(--theme-color-languages), 0 6px 20px 0 var(--theme-color-languages);
+}
+
+.resume-skill-header {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.resume-skill-desc {
+    font-size: 15px;
+    text-align: center;
+}
+
 .resume-timeline {
     display: block;
     padding: 20px;
@@ -365,6 +399,10 @@ nav {
     background-color: var(--theme-color-active);
 
     border-radius: 5px;
+}
+
+.invisible {
+    visibility: hidden;
 }
 
 @media (max-width: 825px) {
