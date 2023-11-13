@@ -207,8 +207,9 @@ hr {
 .resume-item {
     width: 25%;
     padding: 15px;
-    margin: 0 2% 1% 2%;
+    margin: 0 2% 2.5% 2%;
 
+    min-height: 125px;
     border-radius: 20px;
     background-color: var(--theme-color-active-words);
     box-shadow: 0 4px 8px 0 var(--theme-color-languages), 0 6px 20px 0 var(--theme-color-languages);
@@ -451,5 +452,13 @@ nav {
         width: 70%;
     }
 
+    .resume-item {
+        width: 40%;
+    }
 }
 
+@media (max-width: 590px) {
+    .resume-item {
+        width: 70%;
+    }
+}
