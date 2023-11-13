@@ -1,7 +1,9 @@
-# ENGRC 3025: Professional Website
+# Personal + Professional Website
 
 ## Purpose of Project
-This repository was made for my ENGRC 3025 Final Project, in which I create a professional website that displays my skills, projects, and overall resume. This website will showcase the web development skills that I have learned, including HTML, CSS, and JavaScript.
+This repository is a remake of my previous personal website, which is located at https://camelliaguan3.github.io/old-personal-website/. 
+
+This new website was made for my ENGRC 3025 Final Project, in which I create a professional website that displays my skills, projects, and overall resume. This website will showcase the web development skills that I have learned, including HTML, CSS, and JavaScript.
 
 <hr/>
 
