@@ -24,7 +24,7 @@
 
 body {
     position: absolute;
-    top: 10em;
+    top: 6em;
 
     color: var(--theme-color-main);
     background-color: var(--theme-color-background);
@@ -36,7 +36,7 @@ body {
     display: inline-block;
 
     color: var(--theme-color-active-words);
-    background-color: var(--theme-color-main);
+    background-color: var(--theme-color-active);
 
     text-decoration: none;
     font-size: 16px;
@@ -58,8 +58,13 @@ body {
 
 
 /* home */
+.home-body{
+    top: 10em;
+}
+
 .home-flex {
     display: flex;
+
     justify-content: center;
     align-items: flex-end;
 
@@ -131,6 +136,16 @@ body {
 }
 
 .portfolio-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    font-size: 22px;
+    text-align: center;
+
+    width: 100%;
+}
+
+.portfolio-proj-header {
     margin-bottom: 15px;
 
     font-size: 25px;
@@ -192,51 +207,16 @@ hr {
 
 
 /* resume */
+.resume-download {
+    padding-bottom: 35px;
 
-.resume-skills {
-    display: block;
-
-    padding: 20px;
-
-    font-size: 15px;
+    text-align: center;
 
     width: 100%;
 }
 
-.resume-flex {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.resume-item {
-    margin: 0 2% 2.5% 2%;
-    padding: 15px;
-
-    background-color: var(--theme-color-active-words);
-    border-radius: 20px;
-    box-shadow: 0 4px 8px 0 var(--theme-color-languages), 0 6px 20px 0 var(--theme-color-languages);
-
-    width: 25%;
-    min-height: 125px;
-}
-
-.resume-skill-header {
-    margin-bottom: 15px;
-
-    font-size: 18px;
-    text-align: center;
-}
-
-.resume-skill-desc {
-    font-size: 15px;
-    text-align: center;
-}
-
 .resume-timeline {
     display: block;
-
-    padding: 20px;
 
     font-size: 15px;
 
@@ -244,7 +224,8 @@ hr {
 }
 
 .resume-header {
-    padding-bottom: 35px;
+    padding-top: 30px;
+    padding-bottom: 15px;
 
     font-size: 22px;
     text-align: center;
@@ -301,8 +282,52 @@ hr {
     z-index: 1;
 }
 
+.resume-skills {
+    display: block;
+
+    padding: 20px;
+
+    font-size: 15px;
+
+    width: 100%;
+}
+
+.resume-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.resume-item {
+    margin: 0 2% 2.5% 2%;
+    padding: 15px;
+
+    background-color: var(--theme-color-active-words);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 var(--theme-color-languages), 0 6px 20px 0 var(--theme-color-languages);
+
+    width: 25%;
+    min-height: 125px;
+}
+
+.resume-skill-header {
+    margin-bottom: 15px;
+
+    font-size: 18px;
+    text-align: center;
+}
+
+.resume-skill-desc {
+    font-size: 15px;
+    text-align: center;
+}
+
 
 /* about */
+.about-body {
+    top: 10em;
+}
+
 .about-flex {
     display: flex;
     justify-content: center;
