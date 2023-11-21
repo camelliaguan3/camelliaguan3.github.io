@@ -143,7 +143,7 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
 
-    font-size: 28px;
+    font-size: 30px;
     text-align: center;
 
     width: 100%;
@@ -231,7 +231,7 @@ hr {
     padding-top: 30px;
     margin-bottom: 15px;
 
-    font-size: 28px;
+    font-size: 30px;
     text-align: center;
 
     width: 100%;
@@ -358,7 +358,7 @@ hr {
 }
 
 .about-content h2 {
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .about-content p {
