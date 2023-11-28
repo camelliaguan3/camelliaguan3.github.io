@@ -265,6 +265,17 @@ hr {
     gap: 10px;
 }
 
+.resume-skills-list > p {
+    display: inline-block;
+    padding: 2px 8px;
+
+    font-size: 14px;
+
+    background-color: var(--theme-color-languages);
+    border-radius: 10px;
+    width: fit-content
+}
+
 .resume-title {
     position: relative;
     font-size: 22px;
@@ -567,6 +578,10 @@ nav {
 
     .resume-line {
         width: 90%;
+    }
+
+    .invisible {
+        display: none;
     }
 
     .about-content {
